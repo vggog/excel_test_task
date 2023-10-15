@@ -4,6 +4,7 @@ from dataclasses import dataclass
 @dataclass
 class Config:
     excel_file_path: str
+    sqlalchemy_url: str
 
 
 @dataclass
