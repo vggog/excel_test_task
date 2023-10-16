@@ -1,5 +1,5 @@
-from excel_reader import ExcelReader
-from service import Service
+from src.excel_reader import ExcelReader
+from src.service import Service
 
 
 def main():

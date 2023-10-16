@@ -2,8 +2,8 @@ from typing import Iterator
 
 from openpyxl import load_workbook
 
-from configs import config
-from schemas import RowValues
+from src.settings import config
+from src.schemas import RowValues
 
 
 class ExcelReader:

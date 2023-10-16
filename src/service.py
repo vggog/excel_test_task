@@ -1,8 +1,8 @@
 from sqlalchemy.exc import IntegrityError
 
-from repository import Repository
-from models import Country, Goods, ISG
-from schemas import RowValues
+from src.repository import Repository
+from src.models import Country, Goods, ISG
+from src.schemas import RowValues
 
 
 class Service:

@@ -1,4 +1,4 @@
-from schemas import Config
+from src.schemas import Config
 
 
 config = Config(
